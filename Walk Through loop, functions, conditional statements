@@ -1,0 +1,59 @@
+What is a loop in Computer Science:
+
+loop is a sequence of instruction that is continually repeated until a certain condition is reached.
+Go back to the New Year count down example I show you previously notice here I used a while loop, there are different kind of loop while loop is of the variation
+
+Below is the syntax of a while loop
+counter = 10
+while(counter >= 0){
+
+}
+
+in this case the instructions inside {} will continually reapeted until the condition inside () is not true anymore in this case, when coounter become negative numbers
+
+
+
+What is a function (also called method)in Computer Science:
+Function is a block of organized, resuable code that is used to perform a single, related action.
+The function contains instructions used to create the output from its input 
+
+Here is a example of a function:
+
+myNameIs(name){
+ print("Hi my name is" + name)
+}
+
+so here is a function, what it does is you can put any name in () as input
+for example if I put in Shiori as the input name 
+
+myNameIs(Shiori)
+
+this function will print out "Hi my name is Shiori"
+
+if it's
+myNameIs(Pang)
+It will output "Hi my name is Pang"
+
+What is conditional statements in Computer Science:
+
+If/Else is a form of conditional statements, it tells the computer that if the condition is true
+,do this. Else, if the condition is false, do another thing
+
+GO back to the New Year Count down example
+
+inside the while loop I used a If statement
+
+			
+		if(count == 0) {
+			System.out.print("Happy New Year");
+			count = count -1;
+			
+		}
+		else {
+			count = count -1;
+		}
+
+so this is saying if the count equals 0 then we print Happy New Year on the Screen
+
+
+else when the count still greater than 0 we keep subtract 1 
