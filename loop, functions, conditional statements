@@ -3,16 +3,14 @@ What is a loop:
 
 loop is a sequence of instruction that is continually repeated until a certain condition is reached.
 Go back to the New Year count down example I show you previously notice here I used a while loop
-
 Below is the syntax of a while loop
-counter = 10
-while(counter >= 0){
+	counter = 10
+	while(counter >= 0){
 
-}
+	}
 
-in this case the instructions inside {} will continually repeated until the condition inside () is not true anymore in this case, when counter become negative numbers the loop will stop repeating
-
-
+in this case the instructions inside {} will continually repeated until the condition inside () is not true anymore in this case, 
+when counter become negative numbers the loop will stop repeating
 
 What is a function (also called method):
 Function is a block of organized, reusable code that is used to perform a single, related action.
@@ -20,19 +18,18 @@ The function contains instructions used to create the output from its input
 
 Here is a example of a function:
 
-myNameIs(name){
- print("Hi my name is" + name)
-}
+	myNameIs(name){
+ 	 print("Hi my name is" + name)
+	}
 
 so here is a function, what it does is you can put any name in () as input
 for example if I put in Shiori as the input name 
 
 so we called this function below
 myNameIs(Shiori)
-
 this function will print out "Hi my name is Shiori"
-
-if it's
+i
+f it's
 myNameIs(Pang)
 It will output "Hi my name is Pang"
 
@@ -56,6 +53,4 @@ inside the while loop I used a If statement
 		}
 
 so this is saying if the count equals 0 then we print Happy New Year on the Screen
-
-
 else when the count still greater than 0 we keep subtract 1
