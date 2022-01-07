@@ -1,0 +1,24 @@
+Question:
+https://bit-115-cascadia-main.github.io/hosting-parsons-on-github-template/VariablesAndExpressions/CalculateLine
+
+
+// Line 1: y = mx + b
+// Line 2: Let's declare the variables in left-to-right order
+class SlopeIntercept {
+	public static void main(String[] args) {
+		
+		double y;
+		double m = 3.0/5.0;
+		double x = 10;
+		double b = 2;
+		double firstStep = m * x;
+		y = firstStep + b;
+		System.out.println("y = " + m + "*x + " + b  );
+		
+		System.out.println("when x is 10, y is " + y);
+ 
+	}
+ }
+  
+  
+  
